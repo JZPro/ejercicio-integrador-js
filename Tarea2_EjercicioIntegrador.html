@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA 2 JS- EJERCICIO INTEGRADOR JS -</title>
+    <script src="Tarea2_EjercicioIntegrador.js">
+	</script>
+    
+</head>
+<body>
+    <div>
+        <h2>TAREA 2 - JavaScript</h2>
+        <h1>Ejercicio Integrador</h1>
+        
+        <h4>A continuacion podemos encontrar el código de un supermercado que vende productos.</h4>
+        <ul>
+            <li>una clase Producto que representa un producto que vende el super</li>
+            <li>una clase Carrito que representa el carrito de compras de un cliente</li>
+            <li>una clase ProductoEnCarrito que representa un producto que se agrego al carrito</li>
+            <li>una función findProductBySku que simula una base de datos y busca un producto por su sku</li>
+        </ul>
+        
+        <p>El código tiene errores y varias cosas para mejorar / agregar</p>
+
+        <h3>Ejercicios</h3>
+
+        <h4>1) Arreglar errores existentes en el código</h4>
+        <ol type="a"> 
+            <li> Al ejecutar agregarProducto 2 veces con los mismos valores debería agregar 1 solo producto con la suma de las cantidades.</li>
+            <li> Al ejecutar agregarProducto debería actualizar la lista de categorías solamente si la categoría no estaba en la lista.</li>
+            <li> Si intento agregar un producto que no existe debería mostrar un mensaje de error.</li>
+            
+        </ol>
+
+        <h4>2) Agregar la función eliminarProducto a la clase Carrito</h4>
+        <ol type="a"> 
+            <li> La función eliminarProducto recibe un sku y una cantidad (debe devolver una promesa)</li>
+            <li> Si la cantidad es menor a la cantidad de ese producto en el carrito, se debe restar esa cantidad al producto</li>
+            <li> Si la cantidad es mayor o igual a la cantidad de ese producto en el carrito, se debe eliminar el producto del carrito</li>
+            <li> Si el producto no existe en el carrito, se debe mostrar un mensaje de error</li>
+            <li> La función debe retornar una promesa</li>
+        </ol>
+    
+        <h4>3) Utilizar la función eliminarProducto utilizando .then() y .catch()</h4>
+    
+    
+    
+        
+    </div>
+    <div>
+        <p>Los resultados del ejercicio pueden verse en la Consola</p>
+    </div>
+    
+</body>
+</html>
